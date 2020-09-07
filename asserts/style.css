@@ -1,0 +1,347 @@
+.noselect {
+        -webkit-touch-callout: none; /* iOS Safari */
+          -webkit-user-select: none; /* Safari */
+           -khtml-user-select: none; /* Konqueror HTML */
+             -moz-user-select: none; /* Old versions of Firefox */
+              -ms-user-select: none; /* Internet Explorer/Edge */
+                  user-select: none; /* Non-prefixed version, currently
+                                        supported by Chrome, Opera and Firefox */
+      }
+body, html{
+    height: 100%;
+    margin-top:20px;
+    margin-left:auto;
+    margin-right:auto;
+    overflow: hidden;
+    color:rgba(255, 99, 132, 1)
+ 
+}
+.info {
+        margin-left:5px;
+}
+
+.container{
+        background-image: url(../background.jpg);
+        background-size: cover;
+        color:rgba(255, 99, 133, 0.685);
+        color:rgba(54, 163, 235, 0.781);
+        color:rgba(255, 207, 86, 0.644);
+        color:rgba(75, 192, 192, 0.671);
+
+}
+
+.badge-primary{
+        font-size:20px;
+}
+
+h1{
+        color:white;
+        padding-left:10px;
+        font-size:30px !important;
+        border:2px solid white;
+     
+        border-radius: 20px;
+        background-color:#007bff;
+
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#countdown{
+        background-color: #EC173A;
+        border-radius: 40px;
+        width:70px;
+        height:70px;
+       padding-left:13px;
+       padding-top:5px;
+        font-size:40px;
+        margin-left:auto;
+        margin-right:auto;
+        cursor: help;
+
+        color:white;
+ 
+}
+.question{
+        margin-top:20px;
+}
+
+.answerselected{
+        border:2px solid white;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        border-radius: 80px;
+        cursor: Progress;
+}
+.answerbutton{
+        border:2px solid white;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        border-radius: 80px;
+        cursor: pointer;
+
+}
+.answerbutton:hover {
+        background-color: rgba(29, 15, 233, 0.815); /* Green */
+        color: white;
+        box-shadow: 0 12px 16px 0 rgba(202, 202, 202, 0.897), 0 17px 25px 0 rgba(0, 0, 0, 0.952);
+      }
+      
+.answerwarning {
+       
+        color: white;
+        box-shadow: 0 12px 16px 0 rgba(208, 255, 0, 0.897), 0 17px 20px 0 rgba(0, 0, 0, 0.952);
+      }
+      
+ .answersuccess {
+       
+        color: white;
+        box-shadow: 0 12px 16px 0 rgba(0, 255, 13, 0.897), 0 17px 20px 0 rgba(0, 0, 0, 0.952);
+      }
+.answerdanger {
+       
+        color: white;
+        box-shadow: 0 12px 16px 0 rgba(255, 0, 0, 0.897), 0 17px 20px 0 rgba(238, 7, 7, 0.952);
+      }
+ #phone{
+        background-color:rgba(38, 0, 255, 0.575);
+        font-size:30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:rgb(255, 255, 255);
+        outline:none;
+        
+}
+#btn50{
+        background-color:rgba(38, 0, 255, 0.575);
+        font-size:30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:rgb(0, 0, 0);
+	outline:none;
+}
+#btn50:hover ,#pass:hover , #phone:hover  {
+       
+        color: white;
+        box-shadow: 2px 5px 10px 2px rgba(255, 255, 255, 0.897), 0 17px 20px 0 rgba(0, 0, 0, 0.952);
+        cursor: help;
+      }
+#pass{
+        background-color:rgba(38, 0, 255, 0.575);
+        font-size:30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:rgb(255, 255, 255);
+	outline:none;
+}
+
+#point{
+    font-size: 50px;
+}
+
+ul {
+        text-align:center;
+        list-style: none;
+}
+.box{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    font-size: 34px;
+    display: table;
+    float: left;
+}
+
+.box span{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.zoom {
+        transition: transform .2s; /* Animation */
+        padding-top:20px;
+       
+      }
+      
+.zoom:hover {
+        transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    
+      }
+.only5{
+        background-color:rgba(0, 26, 255, 0.472);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color:white;
+        margin-bottom:1px;
+        border-radius: 10px;
+        border:1px solid rgba(255, 255, 255, 0.829);
+        padding-left:5px;
+}
+.only10{
+        background-color:rgba(68, 0, 255, 0.651);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color:white;
+        margin-bottom:1px;
+        border-radius: 10px;
+        border:1px solid rgb(255, 255, 255);
+        padding-left:5px;
+
+}
+
+.only15{
+        background-color:rgba(0, 26, 255, 0.808);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color:white;
+        margin-bottom:1px;
+        border-radius: 10px;
+        border:1px solid rgb(255, 255, 255);
+        padding-left:5px;
+}
+.end{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size:24px;
+
+        margin-top:20px;
+        color:white;
+        padding-left:10px;
+        font-size:30px ;
+       
+      padding-left:20%;
+        border-radius: 20px;
+        background-color:#007bff;
+       
+}
+.end2{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size:24px;
+
+        margin-top:20px;
+        color:white;
+        padding-left:10px;
+        font-size:30px ;
+      
+     
+        border-radius: 20px;
+        background-color:#007bff;
+}
+
+
+.animationclass {
+        
+        animation-delay:0.1s;
+        animation-duration: 1.5s;
+        animation-iteration-count: 1;
+      }
+      .animationclass2 {
+        animation-delay:0.1s;
+        animation-duration: 1.5s;
+        animation-iteration-count: 2;
+      }
+      .animationclass3 {
+        animation-delay:0.3s;
+        animation-duration: 4s;
+        animation-iteration-count: 1;
+       
+      }
+     
+      .testammount{
+              background-color:green;
+      }
+
+      
+/* ----------------------------------------------
+ * Generated by Animista on 2019-10-29 22:35:57
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation slide-in-elliptic-top-fwd
+ * ----------------------------------------
+ */
+ @-webkit-keyframes slide-in-elliptic-top-fwd {
+    0% {
+      -webkit-transform: translateY(-600px) rotateX(-30deg) scale(0);
+              transform: translateY(-600px) rotateX(-30deg) scale(0);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0) rotateX(0) scale(1);
+              transform: translateY(0) rotateX(0) scale(1);
+      -webkit-transform-origin: 50% 1400px;
+              transform-origin: 50% 1400px;
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-elliptic-top-fwd {
+    0% {
+      -webkit-transform: translateY(-600px) rotateX(-30deg) scale(0);
+              transform: translateY(-600px) rotateX(-30deg) scale(0);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0) rotateX(0) scale(1);
+              transform: translateY(0) rotateX(0) scale(1);
+      -webkit-transform-origin: 50% 1400px;
+              transform-origin: 50% 1400px;
+      opacity: 1;
+    }
+  }
+  
+
+  .slide-in-elliptic-top-fwd {
+	-webkit-animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2019-10-29 22:37:8
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation roll-in-blurred-left
+ * ----------------------------------------
+ */
+ @-webkit-keyframes roll-in-blurred-left {
+    0% {
+      -webkit-transform: translateX(-1000px) rotate(-720deg);
+              transform: translateX(-1000px) rotate(-720deg);
+      -webkit-filter: blur(50px);
+              filter: blur(50px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0) rotate(0deg);
+              transform: translateX(0) rotate(0deg);
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+  }
+  @keyframes roll-in-blurred-left {
+    0% {
+      -webkit-transform: translateX(-1000px) rotate(-720deg);
+              transform: translateX(-1000px) rotate(-720deg);
+      -webkit-filter: blur(50px);
+              filter: blur(50px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0) rotate(0deg);
+              transform: translateX(0) rotate(0deg);
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+  }
+  
+.roll-in-blurred-left {
+	-webkit-animation: roll-in-blurred-left 0.65s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+	        animation: roll-in-blurred-left 0.65s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+}
+

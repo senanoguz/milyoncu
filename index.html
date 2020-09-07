@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Milyoncu Oyunu</title>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="asserts/style.css">
+    <script src="asserts/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+
+
+</head>
+
+<body class="container noselect">
+
+
+    <audio src="rounds.mp3" id="my_audio" loop="loop"></audio>
+    <script type="text/javascript">
+        window.onload = function () {
+            document.getElementById("my_audio").play();
+        }
+    </script>
+    <div class="row">
+        <div id="dialog-message" title="Auditoriyanın köməyi" style="display: none;">
+            <canvas id="myChart" width="400" height="200"></canvas>
+        </div>
+        <div class="col-md-8">
+            <marquee style="color:white">Salam Sual Cavab oyunumuza xoş gəlmisiniz oyun hal-hazırda <span
+                    style="color:red;background-color:white">Beta 0.5</span> versiyasındadır buna görədə bəzi buglar
+                (problemlər,çatışmamazlıqlar və.s) ola bilər belə hallarla qarşılaşdığınız zaman <span
+                    style="color:red;background-color:white">senanoguz@mail.ru</span> emailimizə yazmağınızı xaiş edirik
+            </marquee>
+            <div class="question col-md-12 slide-in-elliptic-top-fwd">
+
+            </div>
+
+            <div id="countdown">
+
+            </div>
+            <div class="answers col-md-12 slide-in-elliptic-top-fwd">
+
+            </div>
+            <div class="end col-md-12 slide-in-elliptic-top-fwd">
+
+            </div>
+            <div class="end2 col-md-12 slide-in-elliptic-top-fwd">
+
+            </div>
+        </div>
+
+        <div class="right col-md-4">
+            <div class="info p-3">
+                <button id="phone" type="button"><img src="helps/group.png" alt=""></button>
+                <button id="btn50" type="button"><img src="helps/50-50.png" alt=""></button>
+                <button id="pass" type="button"><img src="helps/pass.png" alt=""></button>
+            </div>
+
+            <div id="pointer">
+
+                <ul id="levels ">
+                    <li class="data15 only15"><img src="dollar.png" width="25px" height="25px">1,000,000</li>
+                    <li class="data14 only15"><img src="dollar.png" width="25px" height="25px">500,000</li>
+                    <li class="data13 only15"><img src="dollar.png" width="25px" height="25px">250,000</li>
+                    <li class="data12 only15"><img src="dollar.png" width="25px" height="25px">125,000</li>
+                    <li class="data11 only15"><img src="dollar.png" width="25px" height="25px">64,000</li>
+                    <li class="data10 only10"><img src="dollar.png" width="25px" height="25px">32,000</li>
+                    <li class="data9 only10"><img src="dollar.png" width="25px" height="25px">16,000</li>
+                    <li class="data8 only10"><img src="dollar.png" width="25px" height="25px">8,000</li>
+                    <li class="data7 only10"><img src="dollar.png" width="25px" height="25px">4,000</li>
+                    <li class="data6 only10"><img src="dollar.png" width="25px" height="25px">2,000</li>
+                    <li class="data5 only5"><img src="dollar.png" width="25px" height="25px">1,000</li>
+                    <li class="data4 only5"><img src="dollar.png" width="25px" height="25px">500</li>
+                    <li class="data3 only5"><img src="dollar.png" width="25px" height="25px">300</li>
+                    <li class="data2 only5"><img src="dollar.png" width="25px" height="25px">200</li>
+                    <li class="data1 only5"><img src="dollar.png" width="25px" height="25px">100</li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+
+        </div>
+        <div style="margin-left:60%;">
+            <span style="color:red;background-color:white">Beta 0.5 version</span>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

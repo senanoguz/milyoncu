@@ -1,0 +1,13 @@
+body, html{
+    height:100%;
+    background-color:rgb(255, 0, 179);
+}
+.blue{
+    background-color:blue !important;
+}
+.red{
+    background-color:rgb(255, 255, 255) !important;
+}
+.green{
+    background-color:rgb(0, 255, 42) !important;
+}
