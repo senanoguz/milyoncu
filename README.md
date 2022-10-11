@@ -1,2 +1,2 @@
-# milyoncu.github.io
+https://senanoguz.github.io/milyoncu/
 Milyoncu Oyunu Javascript
