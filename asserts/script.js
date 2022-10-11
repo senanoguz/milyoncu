@@ -1970,22 +1970,22 @@ $(document).ready(function () {
     });
     var amount = 0;
     var starter = new Audio()
-    starter.src = "../starter.mp3"
+    starter.src = "./starter.mp3"
 
     var phone = new Audio()
-    phone.src = "../phone.mp3"
+    phone.src = "./phone.mp3"
     var fifty = new Audio()
     fifty.src = "../50.mp3"
     var round = new Audio()
-    round.src = "../rounds.mp3"
+    round.src = "./rounds.mp3"
     var wrong = new Audio()
-    wrong.src = "../wronganswer.mp3"
+    wrong.src = "./wronganswer.mp3"
     wrong.type = 'audio/mp3';
     var test = new Audio()
 
-    test.src = "../correctanswer.mp3"
+    test.src = "./correctanswer.mp3"
     var nextt = new Audio()
-    nextt.src = "../next.mp3"
+    nextt.src = "./next.mp3"
 
 
     var i = 1;
